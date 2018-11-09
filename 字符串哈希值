@@ -15,3 +15,4 @@ func main(){
     fmt.Printf("origin: %s, sha256 hash: %x\n", s, bs)
 }
 
+//生成一串字符的sha256哈希值，通常的做法 sha256.New(), sha256.Write(bytes)，最后 sha256.Sum([]byte{})
